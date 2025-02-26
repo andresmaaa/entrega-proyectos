@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ff9900;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+.boton {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.imagenes-inicio {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.imagenes-inicio img {
+    width: 45%; 
+    max-width: 500px; 
+    height: auto; 
+    border-radius: 10px; 
+}
+
+.detalles-artista {
+    width: 75%;
+    position: relative; 
+    padding-right: 35%; 
+}
+
+.imagen-artista {
+    position: absolute;
+    right: 0; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    width: 30%; 
+}
+
+.imagen-artista img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
